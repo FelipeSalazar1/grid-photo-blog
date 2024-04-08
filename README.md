@@ -1,4 +1,3 @@
-# Grid with Animations
+# Photo blog com grid
 
-- A photo blog usind CSS grid and CSS animations.
-- Site for practice and learning those markup languages!
+Trabalho para aula 08/04 de front-end
