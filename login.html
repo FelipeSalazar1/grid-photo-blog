@@ -9,17 +9,17 @@
 </head>
 <body class="d-flex align-items-center py-4 bg-body-tertiary h-100">
   <main class="w-100 m-auto form-container">
-    <form>
+    <form action="./index.html">
       <img src="./assets/mate.jpg" class="mb-4" height="57" width="72"/>
       <h1 class="h3 mb-3 fw-normal">Please Sign In</h1>
 
       <div class="form-floating">
-        <input type="email" class="form-control mb-1" id="floatingInput" placeholder="your-email@gmail.com">
+        <input type="email" class="form-control mb-1" id="floatingInput" placeholder="your-email@gmail.com" required>
         <label for="floatingInput">Email address</label>
       </div>
 
       <div class="form-floating">
-        <input type="password" class="form-control" id="floatingInput" placeholder="password">
+        <input type="password" class="form-control" id="floatingInput" placeholder="password" required>
         <label for="floatingInput">Password</label>
       </div>
 
@@ -28,7 +28,7 @@
         <label class="form-check-label" for="flexCheckDefault">Remember me</label>
       </div>
 
-      <a href=""><button class=" btn btn-primary w-100 py-2" type="submit">Sign In</button></a>
+      <button class=" btn btn-primary w-100 py-2" type="submit">Sign In</button>
     </form>
   </main>
 </body>
